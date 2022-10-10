@@ -1,11 +1,74 @@
-.flex{
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+
+body{
+    background-size: cover;
+    background-image: url(/shutterstock_363041123.jpg);
+    font-family: 'Rajdhani', sans-serif;
+    
+
+color: floralwhite;
+}
+
+.flex {
     display: flex;
     justify-content: center;
-flex-direction: column;
-width: 50%;
-margin-left: 25%;
+    flex-direction: column;
+
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+#output {
+    text-align: center;
+    background-color: rgb(27, 25, 25);
+color: floralwhite;
+border-radius: 5px;
+}
+
+.h {
+    text-align: center;
     
 }
-#output{
+
+.container {
+    background: rgba(24,24,27, 0.6);
+    margin-top: 10%;
+    margin-left: 23%;
     text-align: center;
+    width: 50%;
+    height: 500px;
+    border: 1px floralwhite solid;
+    border-radius: 10px;
+}
+
+.pa{
+    font-size: x-large;
+}
+
+.pa2{
+    font-size: x-large;
+}
+
+.input{
+    background-color: rgb(27, 25, 25);
+    color: floralwhite;
+    border-radius: 5px;
+}
+
+.check{
+    margin: 8px;
+    width: 360px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 0 0 0 0 rgba(99, 99, 121, 0.6);
+
+    transition: ease-in 0.5s;
+}
+.check:hover {
+    box-shadow: inset 360px 0 0 0 rgba(99, 99, 133, 0.6);
+
 }
